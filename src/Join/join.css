@@ -1,0 +1,92 @@
+.join {
+    display: flex;
+    padding: 0 2rem;
+    gap: 5rem;
+    justify-content: space-between; /* Biar kiri & kanan punya ruang */
+    align-items: center; /* Sejajarkan vertikal */
+    width: 100%;
+    padding: 50px; /* Biar lebih rapi */
+    width: 100%;
+    min-height: 50vh;
+}
+
+.left-j {
+    flex: 1;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.left-j>hr {
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    margin: -10px 0;
+}
+
+.left-j>div {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.right-j {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.email-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn-j {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
