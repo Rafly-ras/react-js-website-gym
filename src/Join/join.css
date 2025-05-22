@@ -38,11 +38,11 @@
 
 
 .right-j {
-    flex: 1;
     display: flex;
     justify-content: center; 
     align-items: center;
     height: 100%;
+    gap: 10rem;
 }
 
 .email-container {
@@ -52,8 +52,8 @@
     background: white;
     padding: 10px;
     border-radius: 5px;
-    width: 100%;
-    max-width: 500px;
+    width: 50%;
+    max-width: 300px;
 }
 
 .email-container input {
