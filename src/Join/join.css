@@ -78,7 +78,10 @@
     font-weight: bold;
 }
 
-
+.btn-j:hover {
+    background-color: #ff7f50e0 !important;
+    color: black;
+}
 
 
 

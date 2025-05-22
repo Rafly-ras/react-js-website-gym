@@ -116,6 +116,7 @@
 
 .btn:hover {
     cursor: pointer;
+    background-color: #fdfdfd7c;
 }
 
 .hero-buttons {
@@ -228,8 +229,6 @@
     color: white;
     font-size: 1rem;
 }
-
-
 
 
 
