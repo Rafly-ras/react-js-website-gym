@@ -55,6 +55,70 @@
     z-index: 1;
 }
 
+
+@media screen and (max-width: 768px) {
+    .the-best-ad>span {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hero-image,
+    .hero-image-back {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20rem;
+        height: 20rem;
+        margin-top: 30rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .figures {
+        display: flex;
+        gap: 1rem;
+        font-size: 15px;
+    }
+    .calories {
+        width: 10px;
+        height: 10px;
+        margin-top: 150px;
+    }
+    .hero-buttons {
+        width: 10px;
+        height: 10px;
+        margin-top: 20px;
+        gap: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .right-h>.heart-rate {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        align-items: center;
+        margin-top: 30rem;
+        flex-direction: column;
+        margin-bottom: 1.rem;
+        margin-left: 2.rem;
+        grid-template-columns: 2rem;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .right-h>.heart-rate {
+        display: none;
+    }
+}
+
 .hero-text {
     display: flex;
     flex-direction: column;
@@ -147,6 +211,12 @@
 
 .right-h>.btn:hover {
     background-color: rgb(184, 184, 184);
+}
+
+@media screen and (max-width: 768px) {
+    .right-h>.btn {
+        display: none;
+    }
 }
 
 .heart-rate {
