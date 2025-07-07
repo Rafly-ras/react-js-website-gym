@@ -105,6 +105,35 @@
 }
 
 
+@media screen and (max-width: 820px) {
+    .Testimonials>.left-t>span:nth-child(2) {
+        font-size: 2.7rem;
+    }
+    .Testimonials>.left-t>span:nth-child(3) {
+        font-size: 2.7rem;
+    }
+    .Testimonials>.left-t>span:nth-child(4) {
+        font-size: 1rem;
+    }
+    .Testimonials>.right-t>img {
+        width: 13rem;
+        height: 15rem;
+        right: 7.5rem;
+    }
+    .Testimonials>.right-t>:nth-child(2) {
+        width: 13rem;
+        height: 15rem;
+        top: 2.7rem;
+        right: 6.5rem;
+    }
+    .Testimonials>.right-t>:nth-child(1) {
+        width: 13.5rem;
+        height: 17.5rem;
+        top: 1rem;
+        right: 8.5rem;
+    }
+}
+
 
 
 
