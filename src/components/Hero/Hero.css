@@ -56,60 +56,76 @@
 }
 
 
+@media screen and (max-width: 820px) {
+    .hero-text>div {
+        font-size: 3rem;
+    }
+    .hero-text-2 {
+        font-size: 1rem;
+    }
+    .figures {
+        font-size: 1rem;
+    }
+    .hero-buttons {
+        font-size: 1rem;
+    }
+    .calories {
+    gap: 20rem;
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    top: 20rem;
+    right: 15rem;
+    }
+    .calories {
+        margin-top: 4.5rem;
+        margin-right: -9.5rem;
+    }
+    .hero-image {
+        width: 20rem;
+        height: 20rem;
+        position: absolute;
+        margin-top: 4rem;
+        margin-right: -5.5rem;
+    }
+    .hero-image-back {
+        width: 20rem;
+        height: 25rem;
+        position: absolute;
+        margin-top: 4rem;
+        margin-right: -5.5rem;
+    }
+    .right-h>.heart-rate {
+        margin-right: -3.5rem;
+        width: 2rem;
+        padding: 1.5rem;
+    }
+    .right-h>.heart-rate>span:nth-child(2) {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .right-h>.heart-rate>span:nth-child(3) {
+        font-size: 1.5rem;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .the-best-ad>span {
         font-size: 15px;
         display: flex;
         align-items: center;
     }
-}
-
-
-
-@media screen and (max-width: 768px) {
-    .hero-image,
-    .hero-image-back {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 20rem;
-        height: 20rem;
-        margin-top: 30rem;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    .figures {
+        .figures {
         display: flex;
         gap: 1rem;
         font-size: 15px;
-    }
-    .calories {
-        width: 10px;
-        height: 10px;
-        margin-top: 150px;
     }
     .hero-buttons {
         width: 10px;
         height: 10px;
         margin-top: 20px;
         gap: 1.5rem;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    .right-h>.heart-rate {
-        display: flex;
-        flex-direction: column;
-        padding: 1.5rem;
-        align-items: center;
-        margin-top: 30rem;
-        flex-direction: column;
-        margin-bottom: 1.rem;
-        margin-left: 2.rem;
-        grid-template-columns: 2rem;
     }
 }
 
